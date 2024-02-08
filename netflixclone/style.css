@@ -1,0 +1,539 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: black;
+    color: white;
+}
+.header{
+    height: 105vh;
+    width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(netflix-img/images/header-image.png);
+  background-size: cover;
+  background-position: center;
+  padding: 20px 11%;
+  position: relative;
+
+}
+.logo{
+    display: flex;
+    /* background-color: #fff; */
+    justify-content: space-between;
+}
+
+.logoleft
+{
+display: flex;
+width: 30%;
+/* background-color:green; */
+align-items: end;
+justify-content:space-between;
+padding: 0 25px;
+}
+
+.logo img
+{
+    width: 15%;
+}
+.logoleft select{
+    color: white;
+    cursor: pointer;
+    width :10vw;
+    font-size: 2vw;
+    background-color:rgba(0,0,0,0.3);
+    border: 0.3px solid white;
+    border-radius: 3%;
+}
+.logoleft button
+{
+    background-color: #C11119;
+    color: white;
+    border: none;
+    border-radius: 7%;
+    font-size: 1.3vw;
+    font-weight: 600;
+    padding: 3% 10%;
+    cursor: pointer;
+}
+
+.textcenter{
+  padding: 30vh 20px 0 20px;
+  
+}
+
+.textcenter h1{
+    text-align: center;
+    font-size: 4vw;
+    line-height: 11vh;
+}
+.textcenter h3{
+    margin-top: 2.5vh;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.textcenter h4{
+    margin-top: 5px;
+    margin-top: 2.5vh;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 200;
+}
+.email{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.email input
+{margin-right:25px ;
+    background-color: rgba(0,0,0,0.3);
+    border:1px solid white;
+    border-radius: 5px;
+    height: 8vh;
+width: 23vw;
+padding: 10px;
+color: white;
+}
+
+.email button{
+    background-color: #C11119;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3vw;
+    font-weight: 600;
+    padding: 0 7%;
+}
+
+.element,.element2
+{ display: flex;
+    height: 70vh;
+    width: 100%;
+    border-top: 10px solid rgb(60, 58, 58);
+    align-items: center;
+    justify-content: center
+
+}
+.tile
+{
+    height: 70%;
+    width: 77%;
+    /* background-color: #fff; */
+    display: flex;
+}
+.tileleft{
+    height: 100%;
+    width:55%;
+    padding: 12vh 0;
+    /* background-color: #dadada; */
+}
+.tileright
+{
+    height: 100%;
+    width:45%;
+    background-color:black;
+}
+.tileleft h1{
+font-size: 3vw;
+font-weight: 1000;
+}
+.tileleft h3{
+font-size: 2vw;
+font-weight: 300;
+}
+.tileright img{
+ width :100%;
+height: 100%;
+}
+.tileleft2
+{ height: 100%;
+    width:55%;
+/* padding: 5vh 0; */
+}
+.tileleft2 h1{
+    font-size: 3.6vw;
+    font-weight: 1000;
+}
+.tileleft2 h3{
+    margin: 5px;
+    font-size: 2vw;
+    font-weight: 300;
+}
+.tileleft3{
+    height: 100%;
+    width:55%;
+    padding: 12vh 0;
+    /* background-color: #dadada; */
+}
+.tileleft3 h1{
+    font-size: 3vw;
+    font-weight: 1000;
+    }
+.tileleft3 h3{
+    font-size: 2vw;
+    font-weight: 300;
+    margin-top: 7px;
+}
+.element4
+{
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    border-top: 10px solid rgb(60, 58, 58);
+    border-bottom: 10px solid rgb(60, 58, 58);
+    align-items: center;
+    justify-content: center
+}
+.tile4
+{
+    height: 70%;
+    width: 77%;
+    /* background-color: #fff; */
+    display: flex;
+}
+.tileleft4{
+    height: 100%;
+    width:45%;
+   
+    /* background-color: #dadada; */
+}
+.tileright4
+{
+    height: 100%;
+    width:45%;
+    background-color:black;
+    padding: 12vh 0;
+}
+.tileright4 h1{
+    font-size: 3.3vw;
+    font-weight: 1000;
+}
+.tileright4 h3{
+    font-size: 1.8vw;
+    font-weight: 300;
+}
+.tileleft4 img{
+    width :100%;
+   height: 100%;
+}
+
+.faq
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw 0;
+}
+
+.faq h1{
+    margin-bottom: 20px;
+}
+
+.accordian{
+    width: 80%;
+    padding: 5vh 5vw;
+}
+.accordian li{
+    list-style-type:none;
+  
+    margin-bottom: 10px;
+    
+ 
+}
+.accordian li label{
+    font-size: 2vw;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 10px 25px;
+
+}
+.accordian li label span{
+    font-size: 3vw;
+    font-weight: 200;
+}
+
+.accordian label + input[type="radio"]{
+    display: none;
+}
+.accordian li .cnt{
+    background-color:#2d2d2d;
+    
+    padding:0 25px;
+    font-size: 2vw;
+    
+    font-weight: 300;
+    line-height: 6vh;
+    
+    max-height: 0px;
+    overflow: hidden; 
+    transition: max-height 0.5s;
+
+
+}
+
+.faq p{
+    font-size: 1.6vw;
+    font-weight: 300;
+}
+
+.faq .email{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.faq .email input
+{margin-right:5px ;
+    background-color: rgba(0,0,0,0.3);
+    border:1px solid white;
+    border-radius: 5px;
+    height: 8vh;
+width: 30vw;
+padding: 10px;
+color: white;
+}
+
+.faq .email button{
+    background-color: #C11119;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 2vw;
+    font-weight: 600;
+    width: 250px;
+    cursor: pointer;
+}
+
+.accordian label:hover{
+    cursor: pointer;
+    background-color: #141414;
+}
+
+.accordian label + input[type="radio"]:checked + div{
+    max-height: 100vh;
+    padding:3vh 2vw;
+    margin-top:0.5px;
+    
+    
+}
+.footer{
+height: 60vh;
+width: 100%;
+    border-top:8px solid #414141;
+    color:#777;
+    font-size: 1.5;
+  padding:50px 10% 10%;
+}
+.footer .container
+{
+    margin: 20px 0 10px;
+width: 90%;
+height: 80%;
+/* background-color: #fff; */
+}
+.footer .row
+{
+    display: flex;
+}
+.footer .col
+{
+    width: 25%;
+    height: 100%;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    margin-bottom:25px;
+}
+.footer li a{
+    
+    color: #777;
+}
+
+.footer select{
+    color: white;
+    border-radius: 5px;
+   font-size: 1.4vw;
+   padding: 3px;
+background-color: black;
+text-transform: capitalize;
+margin-bottom: 30px;
+cursor: pointer;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header{
+        height:80vh;
+        width: 100%;
+        padding:10% 4vw;
+    }
+    .logo{
+        width: 90%;
+         justify-content: space-between;
+    }
+    .logo img{
+        width: 30%;
+    }
+    .logo .logoleft{
+        width: 40%;
+        padding: 0;
+        justify-content: start;
+        margin-left: 125px;
+      
+    }
+    .logo .logoleft label{
+        width: 15vw;
+        height: 100%;
+    }
+    .logo .logoleft select{
+        text-transform:capitalize;
+        font-size: 3vw;
+        width: 15vw;
+        
+        height: 100%;
+    }
+    .logo .logoleft button
+{padding: 0%;
+    width: 25vh;
+    margin-left: 10px;
+    font-size: 3vw;
+    height: 100%;
+}
+.textcenter
+{
+    padding:8vh 2.8vh 2vh ;
+}
+.textcenter h1{
+    font-size: 5vh;
+    line-height: 7vh;
+}
+.textcenter h3{
+    font-size: 2.7vh;
+    font-weight: 500;
+}
+.textcenter h4{
+    font-size: 3vh;
+    line-height: 30px;
+    font-weight: 500;
+}
+.email{
+flex-direction: column;
+justify-content: center;
+position: relative;
+}
+.email input{
+  
+    width: 80%;
+    margin:0 0  2vh 5vh;
+}
+.email button{
+   margin:0 0 0 13vh;
+    width: 50%;
+    font-size: 7vw;
+    padding: 5px;
+}
+
+.element .tile{
+    flex-direction: column;
+    height: 90%;
+}
+.tile .tileleft{
+    width: 100%;
+    padding: 25px 0 ;
+    text-align: center;
+
+
+}
+.tileleft h1
+{
+    font-size: 5vh;
+    margin: 5px;
+}
+.tileleft h3
+{
+    font-size: 2.5vh;
+    margin: 10px 0;
+}
+.tile .tileright{
+    width: 100%;
+    height: 50%;
+    padding:0  50px;
+}
+
+
+.element2 .tile{
+display: flex;
+    flex-direction: column-reverse;
+    height: 80%;
+}
+.element2 .tile .tileleft2{
+
+    width: 100%;
+    padding: 2vh 3vh;
+    text-align: center;
+
+}
+.element2 .tile .tileleft2 h1{
+    font-size: 4vh;
+    font-weight: 900;
+}
+.element2 .tile .tileleft2 h3{
+    font-size: 2.6vh;
+    font-weight: 200;
+    
+}
+.element .tileleft3{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0;
+}
+.element .tileleft3 h1{
+font-size: 5vw;
+}
+.element .tileleft3 h3{
+    font-size: 3vw;
+    font-weight: 400;
+    }
+
+.element4 .tile4{
+    flex-direction: column-reverse;
+}
+.element4 .tile4 .tileright4{
+    height: 45%;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    
+}
+.element4 .tile4 .tileright4 h1
+{
+    font-size: 5vw;
+}
+
+.element4 .tile4 .tileright4 h3
+{
+    font-size: 3vw;
+}
+.element4 .tile4 .tileleft4
+{
+    width: 100%;
+    height: 65%;
+}
+.footer .col{
+  display:flex;
+flex-wrap: wrap;
+ 
+
+}
+}
